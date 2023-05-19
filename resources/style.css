@@ -1,0 +1,32 @@
+body {
+    color: rgb(31, 31, 31);
+}
+
+.nav {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+
+    box-shadow: 0 0 5px rgb(0, 192, 222);
+
+    color: rgb(24, 24, 24);
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+}
+
+li a:hover {
+    color: white;
+    text-shadow: 0 0 5px #FFFFFF;
+    box-shadow: 0 0 5px #00FFFF;
+}
